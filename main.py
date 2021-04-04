@@ -28,5 +28,3 @@ def feedulate(results):
         "temp_f": results["temp_f"],
         "temp_c": f"{temp_c:.2f}",
     }
-
-myaqi = aqi.to_iaqi(aqi.POLLUTANT_PM25, '12', algo=aqi.ALGO_EPA)
